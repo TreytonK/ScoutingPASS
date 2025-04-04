@@ -145,10 +145,6 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Barge Timer",
-      "code": "ebt",
-      "type": "timer"
-    },
     { "name": "Final Robot Status",
       "code": "efs",
       "type":"radio",
@@ -167,13 +163,6 @@ var config_data = `
       "code": "cop",
       "type": "bool"
     },
-    { "name": "Algae Left in Reef",
-      "code": "alr",
-      "type": "number",
-      "min": 0,
-      "max": 9,
-      "defaultValue": 0
-    },
     { "name": "Driver Skill",
       "code": "ds",
       "type": "radio",
@@ -189,11 +178,11 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
+        "1": "Below Average<br>",
+        "2": "Average<br>",
+        "3": "Good<br>",
+        "4": "Excellent<br>",
+        "0": "Did not play defense"
       },
       "defaultValue": "x"
     },
